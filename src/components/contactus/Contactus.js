@@ -24,7 +24,7 @@ export default function Contactus() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/submitForm",
+        "https://jaiganesh.pythonanywhere.com/api/submitForm/",
         formData
       );
       console.log(response.data.message); // Log the response from the backend
