@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce336166.css",
+    "main.js": "/static/js/main.a96a1f6d.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/AWS.pdf": "/static/media/AWS.de2cab934b66616746fa.pdf",
+    "static/media/githubDesktop.png": "/static/media/githubDesktop.02426563a0a33fb63d5b.png",
+    "static/media/Google.pdf": "/static/media/Google.5743077eef23ae44ac91.pdf",
+    "static/media/7_dungeon.jpeg": "/static/media/7_dungeon.d2e56143a76a6205addf.jpeg",
+    "static/media/IBM.pdf": "/static/media/IBM.b3ce906f517b5fa5d77d.pdf",
+    "static/media/6_resume.jpeg": "/static/media/6_resume.769d4bbfd92cc06f2695.jpeg",
+    "static/media/2_zw.jpeg": "/static/media/2_zw.1f5391009315a97c495f.jpeg",
+    "static/media/pc.png": "/static/media/pc.06ad21ea51446dc1062f.png",
+    "static/media/4_portfolio.png": "/static/media/4_portfolio.67c7d6ec45e08acc2eed.png",
+    "static/media/google_cybersecurity.png": "/static/media/google_cybersecurity.b652b29a822dd809990c.png",
+    "static/media/Vs.png": "/static/media/Vs.19edc3fbac1c451f289d.png",
+    "static/media/9_jarvis.jpeg": "/static/media/9_jarvis.e71ff18e86fcd6293347.jpeg",
+    "static/media/pg.png": "/static/media/pg.9f8f5cd98ce5726b002f.png",
+    "static/media/3_3j.jpeg": "/static/media/3_3j.3243b0bbe4c19933a8dc.jpeg",
+    "static/media/1_maxdom.jpeg": "/static/media/1_maxdom.06867d55e1040b610252.jpeg",
+    "static/media/ibm_datascience.jpeg": "/static/media/ibm_datascience.254df062c69ac326877f.jpeg",
+    "static/media/5_cafe.jpeg": "/static/media/5_cafe.51930d654bbe7b640bdf.jpeg",
+    "static/media/8_ps.jpeg": "/static/media/8_ps.0b9b4ca1ab783baf4b08.jpeg",
+    "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
+    "static/media/aws_certificate.jpeg": "/static/media/aws_certificate.5cbb60f25685c039bd46.jpeg",
+    "static/media/pre.svg": "/static/media/pre.e4c81c26304bc309eb55.svg",
+    "static/media/h3.jpg": "/static/media/h3.dc52d5d40a40b13154b0.jpg",
+    "static/media/chorme.svg": "/static/media/chorme.b0bd08e3d4226484ce842d3453b979e9.svg",
+    "index.html": "/index.html",
+    "main.ce336166.css.map": "/static/css/main.ce336166.css.map",
+    "main.a96a1f6d.js.map": "/static/js/main.a96a1f6d.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce336166.css",
+    "static/js/main.a96a1f6d.js"
+  ]
+}
