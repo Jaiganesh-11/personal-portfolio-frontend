@@ -4,17 +4,9 @@ import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  const year = new Date().getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
-        {/* <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Jaiganesh K</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} MD Mafujul Hasan</h3>
-        </Col> */}
         <Col md="12" className="footer-body d-flex justify-content-center">
           <ul className="footer-icons">
             <li className="social-icons">
