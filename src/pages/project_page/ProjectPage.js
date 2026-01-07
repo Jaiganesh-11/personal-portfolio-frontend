@@ -234,7 +234,7 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      ""
+                                      "https://github.com/Jaiganesh-11/personal-portfolio-frontend"
                                     }
                                     target="_blank"
                                     rel="noreferrer"

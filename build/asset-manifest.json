@@ -1,14 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.ce336166.css",
-    "main.js": "/static/js/main.a96a1f6d.js",
+    "main.js": "/static/js/main.bf7da0a9.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/AWS.pdf": "/static/media/AWS.de2cab934b66616746fa.pdf",
     "static/media/githubDesktop.png": "/static/media/githubDesktop.02426563a0a33fb63d5b.png",
-    "static/media/Google.pdf": "/static/media/Google.5743077eef23ae44ac91.pdf",
     "static/media/7_dungeon.jpeg": "/static/media/7_dungeon.d2e56143a76a6205addf.jpeg",
-    "static/media/IBM.pdf": "/static/media/IBM.b3ce906f517b5fa5d77d.pdf",
     "static/media/6_resume.jpeg": "/static/media/6_resume.769d4bbfd92cc06f2695.jpeg",
     "static/media/2_zw.jpeg": "/static/media/2_zw.1f5391009315a97c495f.jpeg",
     "static/media/pc.png": "/static/media/pc.06ad21ea51446dc1062f.png",
@@ -29,12 +26,12 @@
     "static/media/chorme.svg": "/static/media/chorme.b0bd08e3d4226484ce842d3453b979e9.svg",
     "index.html": "/index.html",
     "main.ce336166.css.map": "/static/css/main.ce336166.css.map",
-    "main.a96a1f6d.js.map": "/static/js/main.a96a1f6d.js.map",
+    "main.bf7da0a9.js.map": "/static/js/main.bf7da0a9.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce336166.css",
-    "static/js/main.a96a1f6d.js"
+    "static/js/main.bf7da0a9.js"
   ]
 }

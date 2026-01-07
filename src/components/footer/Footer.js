@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
-  let year = date.getFullYear();
+  const year = new Date().getFullYear();
   return (
     <Container fluid className="footer">
       <Row>

@@ -1,17 +1,11 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { Navbar, Nav, Container} from "react-bootstrap";
+import { Link } 
+from "react-router-dom";
 import { MdContactMail } from "react-icons/md";
-import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-} from "react-icons/ai";
-import { FaBlog } from "react-icons/fa";
+import {AiOutlineHome, AiOutlineFundProjectionScreen,} 
+from "react-icons/ai";
 import "../../style.css";
-import { CgFileDocument } from "react-icons/cg";
 export default function MyNav() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);

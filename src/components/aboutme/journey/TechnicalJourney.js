@@ -10,12 +10,10 @@ import {
   DiHtml5,
   DiPython,
   DiReact,
-  DiPhp,
   DiJava,
   DiCss3,
   DiJavascript1,
   DiMysql,
-  DiNodejs,
 } from "react-icons/di";
 import Flip from "react-reveal/Flip";
 

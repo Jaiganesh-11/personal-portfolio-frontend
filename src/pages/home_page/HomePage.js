@@ -2,15 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../Particle";
 import Typing from "./Typing";
-import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
+import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
-import { Outlet } from "react-router-dom";
 
 
 export default function Home() {

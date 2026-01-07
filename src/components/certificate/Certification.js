@@ -5,11 +5,6 @@ import { Fade } from "react-reveal";
 import aws from "../../images/aws_certificate.jpeg";
 import googleCyber from "../../images/google_cybersecurity.png";
 import ibmDS from "../../images/ibm_datascience.jpeg";
-import awsPdf from "../../images/AWS.pdf";
-import googlePdf from "../../images/Google.pdf";
-import ibmPdf from "../../images/IBM.pdf";
-import { Link } from "react-router-dom";
-import { HiArrowRight } from "react-icons/hi";
 
 export default function Certification() {
   return (
