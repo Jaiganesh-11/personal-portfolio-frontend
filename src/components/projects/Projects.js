@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 import maxdom from "../../images/1_maxdom.jpeg";
 import zw from "../../images/2_zw.jpeg";
 import threej from "../../images/3_3j.jpeg";
-import portfolio from "../../images/4_portfolio.png";
+import portfolio from "../../images/4_portfolio1.jpeg";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -42,7 +42,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://maxdom.pythonanywhere.com/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -103,7 +103,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://zerowhiterestraunt.com/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -163,7 +163,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://3jconnective.com/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -223,7 +223,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://jaigprofile.netlify.app/"
                         }
                         target="_blank"
                         rel="noreferrer"

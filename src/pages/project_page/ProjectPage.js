@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 import maxdom from "../../images/1_maxdom.jpeg";
 import zw from "../../images/2_zw.jpeg";
 import threej from "../../images/3_3j.jpeg";
-import portfolio from "../../images/4_portfolio.png";
+import portfolio from "../../images/4_portfolio1.jpeg";
 import cafe from "../../images/5_cafe.jpeg";
 import resume from "../../images/6_resume.jpeg";
 import dungeon from "../../images/7_dungeon.jpeg";
@@ -234,7 +234,7 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/Jaiganesh-11/personal-portfolio-frontend"
+                                      "https://jaigprofile.netlify.app/"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
