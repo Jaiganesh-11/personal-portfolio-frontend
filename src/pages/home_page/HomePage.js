@@ -70,7 +70,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="mailto:jaiganesh6074@gmail.com/"
+                      href="mailto:karthikeyanjaiganesh555@gmail.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
