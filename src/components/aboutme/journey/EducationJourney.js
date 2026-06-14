@@ -35,6 +35,25 @@ function EducationJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date="2021 - 2025"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<SchoolIcon />}
+        >
+          <h4 className="vertical-timeline-element-title">
+            DHANALAKSHMI COLLEGE OF ENGINEERING
+          </h4>
+          <h4 className="vertical-timeline-element-subtitle mt-2">
+            Bachelor of Engineering (B.E) in Electrical and Electronics Engineering
+          </h4>
+          <p>
+            Completed a B.E in EEE, gaining strong knowledge in electrical systems, electronics, and 
+            practical engineering concepts, with a CGPA of 8.1.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date="2009 - 2021"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
@@ -51,25 +70,7 @@ function EducationJourney() {
             reflecting consistent academic performance and a strong educational foundation.
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2021 - 2025"
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<SchoolIcon />}
-        >
-          <h4 className="vertical-timeline-element-title">
-            DHANALAKSHMI COLLEGE OF ENGINEERING
-          </h4>
-          <h4 className="vertical-timeline-element-subtitle mt-2">
-            Bachelor of Engineering (B.E) in Electrical and Electronics Engineering
-          </h4>
-          <p>
-            Completed a B.E in EEE, gaining strong knowledge in electrical systems, electronics, and 
-            practical engineering concepts, with a CGPA of 8.1.
-          </p>
-        </VerticalTimelineElement>
+        
 
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}

@@ -43,6 +43,18 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
+            SOC Threat Intelligence Dashboard
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<JavascriptIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
             MAXDOM – Premium Custom T-Shirt Store Website
           </h3>
         </VerticalTimelineElement>

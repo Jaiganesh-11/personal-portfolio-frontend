@@ -28,35 +28,27 @@ const About = () => {
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                I’m <b className="purple">Jaiganesh K</b>, a passionate web developer focused on
-                building <b className="purple">responsive</b> and <b className="purple">dynamic</b> web
-                applications that deliver real value.
+                I’m <b className="purple">I'm Jaiganesh K</b>, an aspiring Data Analyst with a strong interest in
+                 <b className="purple"> transforming data into meaningful insights
+                  </b> that <b className="purple">support</b> informed business decisions.
                 <br />
                 <br />
-                I help <b className="purple">businesses</b> and <b className="purple">individuals</b> design,
-                build, fix, and optimize <b className="purple">modern web solutions</b> with clean
-                design and solid performance.
+                Through academic projects, <b className="purple">internships, and continuous learning,</b> I have developed analytical <b className="purple">thinking and problem-solving skills</b> while working on data-driven
+                 <b className="purple"> solutions and</b> real-world applications.
+                <br />      
                 <br />
+                I have hands-on experience <b className="purple">in data analytics, data visualization,</b>, <b className="purple"> and dashboard development, enabling me to extract</b>,
+                valuable insights and communicate findings effectively.
                 <br />
-                I work with core web technologies such as&nbsp;
-                <b className="purple">
-                  {" "}
-                  HTML, CSS, JavaScript, Python
-                </b>
-                &nbsp;and leverage modern tools to create scalable and user-friendly applications.
+                <br /> 
+                Alongside analytics, <b className="purple">I have built responsive</b>, <b className="purple">web applications and worked</b>,
+                with modern development technologies, giving me a strong foundation in both data and software development.
                 <br />
-                <br />
-                I have hands-on experience with frameworks and libraries including&nbsp;
-                <b className="purple">
-                  {" "}
-                  React, NodeJS, Django, Pandas, and NumPy
-                </b>,
-                enabling me to build complete end-to-end solutions.
-                <br />
-                <br />
-                I believe in <b className="purple">clear communication</b>, <b className="purple">timely delivery</b>,
-                and crafting solutions that align perfectly with client goals.
-              </p>
+                <br />  
+
+                As a recent engineering graduate<b className="purple"> , I am eager to contribute, learn</b>, <b className="purple">and grow in a professional environment while helping organizations</b>,
+                make data-driven and technology-focused decisions.
+              </p>  
 
             </Fade>
           </Col>

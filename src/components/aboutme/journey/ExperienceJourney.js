@@ -33,7 +33,28 @@ function ExperienceJourney() {
       </div>
 
       <VerticalTimeline>
+
         {/* Experience 1 */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work experience-card"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid rgb(78 22 112)" }}
+          date="2025"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Sutherland Global Services
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">
+            Non-Voice Process Associate (Contract)
+          </h6>
+          <p>Worked as a Non-Voice Process Associate, handling customer support operations through email and chat-based communication while ensuring service quality and accuracy.</p>
+          <p>Processed customer requests, resolved queries, and maintained detailed records in accordance with organizational guidelines and service standards.</p>
+          <p>Developed strong communication, problem-solving, time management, and attention-to-detail skills while working in a fast-paced professional environment.</p>
+        </VerticalTimelineElement>
+
+        {/* Experience 2 */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work experience-card"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
@@ -63,7 +84,7 @@ function ExperienceJourney() {
           </p>
         </VerticalTimelineElement>
 
-        {/* Experience 2 */}
+        {/* Experience 3 */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work experience-card"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
@@ -83,7 +104,7 @@ function ExperienceJourney() {
           <p>Deployed the application on Streamlit Cloud and documented workflows, improving onboarding efficiency by 30%.</p>
         </VerticalTimelineElement>
 
-        {/* Experience 3 */}
+        {/* Experience 4 */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work experience-card"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
@@ -101,6 +122,26 @@ function ExperienceJourney() {
           <p>Developed an AI-powered resume-to-job matching system using Machine Learning and NLP, improving alignment accuracy by 15%.</p>
           <p>Automated data preprocessing and built an interactive Streamlit dashboard, reducing manual effort by 40%.</p>
           <p>Prepared evaluation reports and project presentations, with 80% of mentors rating insights as actionable.</p>
+        </VerticalTimelineElement>
+        
+        {/* Experience 5 */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work experience-card"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid rgb(78 22 112)" }}
+          date="2024"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Chennai Metro Rail Limited (CMRL)
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">
+            AFC Intern (Automatic Fare Collection Team)
+          </h6>
+          <p>Completed internship training under the Automatic Fare Collection (AFC) team, gaining exposure to metro ticketing systems and smart card operations.</p>
+          <p>Observed the functioning, maintenance, and troubleshooting of fare collection equipment, including ticket vending machines, gate systems, and backend operations.</p>
+          <p>Developed an understanding of system monitoring, operational workflows, and technology integration in large-scale public transportation infrastructure.</p>
         </VerticalTimelineElement>
 
         {/* End Icon */}

@@ -132,6 +132,46 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiMysql />}
         >
+          <h3 className="vertical-timeline-element-title">Advanced EXCEL</h3>
+        </VerticalTimelineElement>
+        {/* <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<DiNodejs />}
+        >
+          <h3 className="vertical-timeline-element-title">NODE JS</h3>
+        </VerticalTimelineElement> */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<DiMysql />}
+        >
+          <h3 className="vertical-timeline-element-title">Power BI</h3>
+        </VerticalTimelineElement>
+        {/* <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<DiNodejs />}
+        >
+          <h3 className="vertical-timeline-element-title">NODE JS</h3>
+        </VerticalTimelineElement> */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<DiMysql />}
+        >
           <h3 className="vertical-timeline-element-title">MySQL</h3>
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement

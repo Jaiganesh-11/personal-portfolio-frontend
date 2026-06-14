@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../Particle";
 import Typing from "./Typing";
+import { FaFileDownload } from "react-icons/fa";
+import ResumePDF from "../../assets/Jaiganesh K.pdf";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
@@ -27,8 +29,8 @@ export default function Home() {
               </h1>
 
               <h1 className="heading-name-home">
-                <strong className="main-name"> Web Developer specializing in responsive and dynamic web applications. Also experienced in Data Analysis and visualization. </strong>
-                I help businesses and individuals build, fix, and optimize modern web solutions.
+                <strong className="main-name"> Aspiring Data Analyst with hands-on project and internship experience, passionate about turning data into actionable insights. </strong>
+                Eager to contribute analytical thinking and problem-solving skills in a professional environment.
               </h1>
 
               <div className="typing-homeclass">
@@ -74,6 +76,17 @@ export default function Home() {
                       className="iconcolour homesocialicons"
                     >
                       <FaGoogle />
+                    </a>
+                  </li>
+                  <li className="socialicons">
+                    <a
+                      href={ResumePDF}
+                      download
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons resume-btn"
+                    >
+                      <FaFileDownload />
                     </a>
                   </li>
                 </ul>

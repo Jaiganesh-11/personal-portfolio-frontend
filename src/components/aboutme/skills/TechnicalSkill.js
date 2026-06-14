@@ -61,9 +61,9 @@ export default function TechnicalSkill() {
           <Row className="g-5">
 
             {/* Programming Languages */}
-            <SkillCard percent={60} color="#fe3e57" width={85} label="C Programming" barId="c" />
+            <SkillCard percent={60} color="#fe3e57" width={85} label="Power BI" barId="Power" />
             <SkillCard percent={80} color="#39c4ff" width={90} label="Python Development" barId="python" />
-            <SkillCard percent={65} color="#54faae" width={85} label="Java Programming" barId="java" />
+            <SkillCard percent={65} color="#54faae" width={85} label="C Programming" barId="c" />
 
             {/* Web Technologies */}
             <SkillCard percent={71} color="#f1f965" width={81} label="JavaScript" barId="js" />

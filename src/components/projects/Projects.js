@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
+import SOC from "../../images/SOC.jpeg";
+import Hr_Analytics from "../../images/HR_Analytics.jpeg";
 import maxdom from "../../images/1_maxdom.jpeg";
 import zw from "../../images/2_zw.jpeg";
 import threej from "../../images/3_3j.jpeg";
@@ -36,13 +38,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      MAXDOM – Premium Custom T-Shirt Store Website
+                      SOC Threat Intelligence Dashboard
                     </h5>
-                    <img src={maxdom} alt="MAXDOM Project" />
+                    <img src={SOC} alt="MAXDOM Project" />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://maxdom.pythonanywhere.com/"
+                          "https://github.com/Jaiganesh-11/SOC-Threat-intelligence-Dashboard"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,10 +68,11 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      MAXDOM Menswear Store is a full-stack web application that allows users to 
-                      explore menswear collections, subscribe to store updates, and contact the brand directly. 
-                      The project demonstrates end-to-end development, combining an intuitive frontend with a functional 
-                      backend to manage customer data and interactions efficiently.
+                      A Power BI-based Cybersecurity Threat Intelligence Dashboard developed through 
+                      comprehensive data cleaning, data modeling, and data visualization techniques. 
+                      The dashboard provides actionable insights into cyberattacks, financial losses, 
+                      affected users, threat trends, and industry-wise risk exposure, enabling data-driven 
+                      cybersecurity analysis and decision-making.
                     </p>
                   </h6>
                   <div
@@ -80,7 +83,67 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript, Django
+                    Power BI, DAX, Data Modeling, Data Visualization
+                  </div>
+                </div>
+              </Fade>
+            </Col>
+            <Col md={3}>
+              <Fade bottom>
+                <div
+                  key={1}
+                  className="singleProject"
+                  style={{
+                    backgroundColor: "rgb(142 70 186 / 31%)",
+                    border: "1px solid",
+                  }}
+                >
+                  <div className="projectContent">
+                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                      HR Analytics Dashboard
+                    </h5>
+                    <img src={Hr_Analytics} alt="MAXDOM Project" />
+                    <div className="project--showcaseBtn">
+                      <a
+                        href={
+                          "https://public.tableau.com/app/profile/jaiganesh.k5883/viz/HRDataAnalyticsDashboard_17814327337270/HRAnalyticsDasboard?publish=yes"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className={"iconBtn"}
+                        aria-labelledby={`code`}
+                      >
+                        <FaCode
+                          id={`code`}
+                          className={"icon"}
+                          aria-label="Code"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <h6>
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "#fbd9ad",
+                        color: "#b061df",
+                        fontWeight: 600,
+                      }}
+                    >
+                      Interactive HR Analytics Dashboard built in Tableau to analyze 
+                      employee attrition, workforce demographics, job satisfaction, 
+                      and retention trends through dynamic visualizations and KPI-driven insights.
+                    </p>
+                  </h6>
+                  <div
+                    className="project--lang"
+                    style={{
+                      background: "#fbd9ad",
+                      color: "#b061df",
+                      fontWeight: 600,
+                    }}
+                  >
+                    Tableau, KPI Dashboard, Data Modeling, Workforce Analytics
                   </div>
                 </div>
               </Fade>
@@ -201,66 +264,6 @@ export default function Projects() {
                     }}
                   >
                     HTML, CSS, JavaScript, Django
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
-                    </h5>
-                    <img src={portfolio} alt="Personal Portfolio" />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://jaigprofile.netlify.app/"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Personal Portfolio Website is a React-based web application designed to showcase
-                      projects and skills while enabling direct client communication. 
-                      The project highlights modern frontend development practices and an intuitive user experience.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    HTML, CSS, React, JavaScript
                   </div>
                 </div>
               </Fade>

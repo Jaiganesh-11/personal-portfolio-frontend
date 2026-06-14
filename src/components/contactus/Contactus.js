@@ -118,14 +118,14 @@ export default function Contactus() {
                 <Col md={7}>
                   <div className="contacts-details">
                     <a
-                      href={`mailto:mdtonmoy13.mt@gmail.com`}
+                      href={`mailto:karthikeyanjaiganesh555@gmail.com`}
                       className="personal-details"
                     >
                       <div className="detailsIcon">
                         <FiAtSign />
                       </div>
                       <p style={{ color: "#fbd9ad" }}>
-                        jaiganesh6074@gmail.com
+                        karthikeyanjaiganesh555@gmail.com
                       </p>
                     </a>
                     <a
@@ -135,7 +135,7 @@ export default function Contactus() {
                       <div className="detailsIcon">
                         <FiPhone />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>+91 78240 21515</p>
+                      <p style={{ color: "#fbd9ad" }}>+91 86101 54460</p>
                     </a>
                     <a
                       href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"

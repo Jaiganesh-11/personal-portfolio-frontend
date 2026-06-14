@@ -6,7 +6,9 @@ import githubDesktop from "../../../images/githubDesktop.png";
 import github from "../../../images/github.png";
 import pg from "../../../images/pg.png";
 import pm from "../../../images/pm.png";
-import chrome from "../../../images/chorme.svg";
+import Excel from "../../../images/Excel.png";
+import Tableau from "../../../images/tableau.png";
+import Powerbi from "../../../images/Powerbi.png";
 import { Link } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 
@@ -37,6 +39,20 @@ export default function Toolkit() {
   <h3 className="tool-section-title">Tools I Use</h3>
 
   <Row className="tool-grid">
+        <Col xs={6} md={3} className="tool-box">
+  <img src={Excel} alt="Advanced Excel" />
+  <p>Advanced Excel</p>
+</Col>
+
+<Col xs={6} md={3} className="tool-box">
+  <img src={Powerbi} alt="Power BI" />
+  <p>Power BI</p>
+</Col>
+
+    <Col xs={6} md={3} className="tool-box">
+      <img src={Tableau} alt="Tableau" />
+      <p>Tableau</p>
+    </Col>
     <Col xs={6} md={3} className="tool-box">
       <img src={vs} alt="VS Code" />
       <p>VS Code</p>
@@ -51,11 +67,7 @@ export default function Toolkit() {
       <img src={github} alt="GitHub" className="github-icon" />
       <p>GitHub</p>
     </Col>
-
-    <Col xs={6} md={3} className="tool-box">
-      <img src={chrome} alt="Chrome DevTools" />
-      <p>Chrome DevTools</p>
-    </Col>
+    
   </Row>
 
   {/* Currently Exploring */}
